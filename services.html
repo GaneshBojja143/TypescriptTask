@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="shipyard">
+    <div class="page-body">
+        <div class="requests-nav">
+            <div class="services-offered">
+                <ul class="resources-available">
+                    <li class="nav-task">Request a Quote</li><span>|</span>
+                    <li class="nav-task">Client Login </li> <span>|</span>
+                    <li class="nav-task">Vehicle Export Portal</li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-items">
+            <img src="logo.png" class="nav-pic">
+            <nav class="nav-details">
+                <ul class="nav-segment">
+                    <li class="nav-portion"><a href="home.html" class="nav-item">Home</a><span class="nav-separator">|</span></li>
+                    <li class="nav-portion"><a href="#" class="nav-item">About Ftzws</a><span class="nav-separator">|</span></li>
+                    <li class="nav-portion"><a href="services.html" target="_self" class="nav-services">Our Services</a><span class="nav-separator">|</span></li>
+                    <li class="nav-portion"><a href="#" class="nav-item">Our Clients</a><span class="nav-separator">|</span></li>
+                    <li class="nav-portion"><a href="#" class="nav-item">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="service-page-content">
+            <div class="service-page-border">
+                <div class="table">
+                    <div class="search-box">
+                        <input type="search" placeholder="Search" name="search" id="search" onkeyup="checkMatchedCharacters()">
+                    </div>
+                    <div class="table-details" id="person-details">
+                        <div class="child check-box"><span><input type="checkbox" name="" id="checkbox-header" onclick="checkHeaderStatus()"></span></div>
+                        <div class="child field-header name-header">Name</div>
+                        <div class="child field-header score-header">Score</div>
+                        <div class="child field-header email-header">Email</div>
+                        <div class="child field-header empty-header"></div>
+                    </div>
+                    <div class="table-operations">
+                        <input id="calculate" type="button" value="Calculate" onclick="calculateMaxAndAverage()">
+                        <div id="average" class="average">Average:0</div>
+                        <div id="max" class="max">Max:0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end-details service-end-details">
+            <ul class="ending">
+                <li class="end-queries">
+                    <p class="copyright">Copyright © 2010 FTZ World Services. All rights reserved.</p>
+                </li>
+                <li class="end-queries">
+                    <a href="#">Contact Us</a> <span class="slash">|</span>
+                </li>
+                <li class="end-queries">
+                    <a href="#">Request a Quote</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
