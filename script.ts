@@ -6,9 +6,9 @@ class dataFetch{
     }
 }
 class loadingDataIntoPage{
-    dataFetch=new dataFetch();
+    dataFetching=new dataFetch();
     initialize(){
-        this.dataFetch.getInfo("userdetails.json").then(function(data){dataEntry(data);})
+        this.dataFetching.getInfo("userdetails.json").then(function(data){dataEntry(data);})
     }
 }
 
